@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CV Dengan CSS</title>
+	<style type="text/css">
+		.wrap{
+			width: 1000px;
+			height: 800px;
+			margin: 0 auto;
+			background-color: white;
+		}
+
+		#kiri{
+			border-top-left-radius: 50px;
+			border-bottom-left-radius: 50px;
+			background-color: #90e07e;
+			width: 250px;
+			height: 765px;
+			margin: 0 0 20px;
+			float: left;
+			list-style: none;
+			box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+		}
+
+		#kiri ul{
+			margin: 0 0 20px 20px;
+			padding: 0;
+			list-style: none;
+			width: 200px;
+		}
+
+		#kiri li{
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: block;
+			padding: 7px 9px;
+			text-decoration: none;
+			color: black;
+			border-bottom: 1px dotted blue
+		}
+
+		#kiri h2{
+			margin: 0px 0 0px 0;
+			padding: 7px 12px;
+			color: white;
+			font-size: 20px;
+			background: green;
+		}
+
+		img{
+			border: 1px solid #000000;
+     		width: 200px;
+     		height: 200px;
+     		overflow: hidden;
+     		border-radius: 50%;
+     	}
+     	.judul{
+     		border-top-right-radius: 50px;
+     		color: white;
+			width: 730px;
+			height: auto;
+			margin: 0 0 20px;
+			padding: 0 20px 0 0;
+			float: left;
+			background: green;
+			box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+			font-size: 15px;
+     	}
+
+     	.identitas{
+     		border-bottom-right-radius: 50px;
+			background-color: #90e07e;	
+			width: 690px;
+			height: auto;
+			margin: 0 0 10px;
+			padding: 20px 30px 20px 20px;
+			float: right;
+			box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+		}
+
+		#pribadi{
+			color: green;
+			text-decoration: none;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="wrap">	
+		<div id="kiri">
+			<br><center>
+				<img src="Lina.jpeg">
+			</center><br>
+			<center>
+				<h2>KEMAMPUAN</h2>
+			</center>
+			<ul>
+				<li>Microsoft Word</li>
+				<li>Microsoft Excel</li>
+				<li>Adobe Photoshop</li>
+				<li>CorelDRAW</li>
+			</ul>
+		</div>
+		<div class="judul">
+			<center>
+				<h2>CURRICULUM VITAE</h2>
+			</center>
+		</div>
+		<div class="identitas">
+			<div id="pribadi">
+				<hr>
+				<h2>IDENTITAS DIRI</h2>
+				<hr>
+				<br>
+			</div>
+			<table style="width:100%">
+				<tr>
+					<td>Nama Lengkap</td>
+       				<td>: Lina Nurullaili </td>
+   				</tr>
+   				<tr>
+   					<td>Tempat Tanggal Lahir</td>
+   					<td>: Ngawi, 02 Agustus 2003 </td>  
+    			</tr>
+    			    <td>Alamat</td>
+        			<td>: Dsn.Nglebak Ds.Kedunggudel Kec.Widodaren Kab.Ngawi</td>
+    			<tr>
+   					<td>Jenis Kelamin</td>
+   					<td>: Perempuan</td>
+    			</tr>
+    			<tr>
+    				<td>Agama</td>
+   					<td>: Islam</td>
+    			</tr>
+    			<tr>
+    			    <td>Status</td> 
+       				<td>: Mahasiswa</td>
+    			</tr>
+    			<tr>
+   	 			    <td>NO. TELP</td>
+   				    <td>: 085755184900</td>
+   				</tr>
+    			<tr>
+       				<td>Email</td>
+       				<td>: linanurullaili@gmail.com</td>
+   				</tr>
+			</table>
+			<br>
+			<div id="pribadi">
+				<hr>
+				<h2>RIWAYAT PENDIDIKAN</h2>
+				<hr>
+				<br>
+			</div>
+			<table border="4" cellpadding="2" cellspacing="2.5" width="550">
+	    		<tr>
+	    			<th><h3>Tingkatan Pendidikan</h3></th>
+	    			<th><h3>LULUS</h3></th> 
+	    		</tr>
+	    		<tr>
+	    			<td>TK Aisyiyah Bustanul Athfal</td>
+	    			<td>2009</td>
+	    		</tr>
+	   			<tr>
+	    			<td>MI Muhammadiyah Kedunggudel</td>
+	    			<td>2015</td>
+	    		</tr>
+	    		<tr>
+	    			<td>Mts Darul Huda Mayak Ponorogo</td>
+	    			<td>2018</td>
+	    		</tr>
+	    		<tr>
+	    			<td>MA Darul Huda Mayak Ponorogo</td>
+	    			<td>2021</td>
+	    		</tr>
+	    		<tr>
+	    			<td>Universitas Sebelas Maret</td>
+	    			<td>Jalan Semester 2</td>
+	    		</tr>
+			</table>
+			<br>
+		</div>
+	</div>
+</body>
+</html>
